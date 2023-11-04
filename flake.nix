@@ -22,7 +22,7 @@
           devShells.default = mkShell {
             buildInputs = [
               rust-bin.stable.latest.default
-              step-cli
+              cargo-deny
               cargo-audit
               cargo-outdated
             ];
